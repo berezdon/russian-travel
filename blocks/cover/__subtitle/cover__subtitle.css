@@ -1,0 +1,20 @@
+.cover__subtitle {
+  width: 360px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+  margin: 32px 0 0;
+}
+
+.cover__subtitle:hover .cover__overlay {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 560px){
+  .cover__subtitle {
+    width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
