@@ -1,7 +1,7 @@
 .cover__background {
   position: relative;
   z-index: 0;
-  height: 740px;
+  min-height: 740px;
   background-image: url("../../../images/depot.jpg");
   background-size: cover;
   text-decoration-line: none;
