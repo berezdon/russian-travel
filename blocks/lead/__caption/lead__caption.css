@@ -3,6 +3,18 @@
   line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   margin: 8px 0 0;
+}
+
+@media screen and (max-width: calc(945px + 24px)) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }

@@ -1,0 +1,16 @@
+.header__language {
+  display: inline;
+  margin: 0 18px 0 0;
+  padding: 0;
+}
+
+.header__language:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 425px){
+  .header__language {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

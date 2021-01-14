@@ -3,6 +3,7 @@
   line-height: 1.12;
   color: #fff;
   text-decoration-line: none;
+  transition: opacity 0.3s linear;
   margin-right: 18px;
 }
 
