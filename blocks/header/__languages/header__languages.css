@@ -1,5 +1,6 @@
 .header__languages {
-  width: 81px;
+  display: flex;
+  width: 76px;
   margin: 0 0 6px;
   padding: 0;
   list-style-type: none;
@@ -7,6 +8,7 @@
 
 @media screen and (max-width: 425px){
   .header__languages {
+    width: 62px;
     margin: 0 0 8px;
   }
 }
